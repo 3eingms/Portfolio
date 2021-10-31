@@ -1,0 +1,226 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f2f2f2;
+}
+hr{
+    opacity: 45%;
+}
+/* header section */
+.header{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+.header img{
+    width: 150px;
+    
+}
+.header h1{
+    text-shadow: 6px 3px 4px rgb(214, 214, 214);
+}
+/* navbar section */
+.topnav{
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 4px;
+    font-family: 'Nunito', sans-serif;
+    
+
+}
+.topnav a{
+    display: block;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: #f2f2f2;
+    color: black;
+    border-radius: 5px;
+    
+    
+
+}
+
+/* who am i section */
+.card{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 55px;
+   
+;
+}
+
+
+/* hr line */
+.hr{
+    width: 158px;
+}
+
+/* skill section */
+.skill{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    /* margin-bottom: 42px; */
+   
+    
+}
+.sl {
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.skill2{
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    
+    
+    
+}
+/* CV section */
+.cv{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-top: 260px;
+    
+}
+.cvbtn{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.cvbtn button{
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    background-color: #333;
+    border: none;
+    color: white;
+    /* width: 9%; */
+    padding: 9px 13px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 5px 1px black;
+    margin-bottom: 59px;
+}
+.cvbtn button:hover{
+    
+    background-color: black;
+    color: #f2f2f2;
+}    
+/* contact section */
+.contact{
+    padding: 25px;
+    background-color: #f2f2f2;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.contact h1{
+    text-align: center;
+}
+label{
+    font-size: 17px;
+}
+input[type=text],input[type=email],textarea{
+    width: 100%;
+    padding: 9px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+input[type=submit]{
+    width: 100%;
+    cursor: pointer;
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+input[type=submit]:hover{
+    background-color: black;
+    color: #f2f2f2;
+}
+/* follow section */
+.follow{
+    margin-top: 48px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.follow h1,p,h2{
+    text-align: center;
+}
+.io{
+    display: flex;
+    justify-content: center;
+    
+}
+.io a{
+    padding: 0px 10px;
+    color: black;
+}
+.io a:hover{
+    box-shadow: 0px 3px 5px 1px black;
+    border-radius:5px ;
+}
+
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* responsive section */
+/* for nav */
+@media screen and (max-width: 400px){
+    .topnav a{
+        float: none;
+        width: 100%;
+    }
+}
+/* for head before nav */
+@media screen and (max-width: 400px){
+    .header h1{
+        font-size: 20px;
+    }
+}
+
+/* CV button */
+
+@media screen and (max-width:400px) {
+    .cvbtn button{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:200px) {
+    .cvbtn button{
+        width: 20%;
+    }
+}
+@media  screen and (max-width:430px) {
+    .card p{
+        text-align:center;
+    }
+}
+
