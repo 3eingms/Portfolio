@@ -22,6 +22,7 @@ hr{
 }
 .header img{
     width: 150px;
+    height: auto;
     
 }
 .header h1{
