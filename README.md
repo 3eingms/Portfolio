@@ -1,2 +1,2 @@
 # Welcome to my portfolio
-### <a name="3eingms.github.io/Portfolio"></a>myportfolio.com
+### Visit my website: [myportfolio.com](https://3eingms.github.io/Portfolio)
