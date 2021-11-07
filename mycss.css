@@ -9,10 +9,11 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #f2f2f2;
+    background-color: black;
+    color: #f2f2f2;
 }
 hr{
-    opacity: 45%;
+    opacity: 35%;
 }
 /* header section */
 .header{
@@ -24,7 +25,7 @@ hr{
     width: 150px;
 }
 .header h1{
-    text-shadow: 6px 3px 4px rgb(214, 214, 214);
+    text-shadow:4px 1px 5px rgb(185 78 78);
 }
 /* navbar section */
 .topnav{
@@ -44,7 +45,7 @@ hr{
     text-decoration: none;
 }
 .topnav a:hover{
-    background-color: #f2f2f2;
+    background-color: #a89c9c8c;
     color: black;
     border-radius: 5px;
     
@@ -59,7 +60,10 @@ hr{
     margin-top: 40px;
     margin-bottom: 55px;
    
-;
+
+}
+.swipe{
+    color: white;
 }
 
 
@@ -92,6 +96,14 @@ hr{
     
     
 }
+
+.d-flex{
+    display: flex;
+}
+
+.w-100{
+    width: 100%;
+}
 /* CV section */
 .cv{
     font-family: 'Nunito', sans-serif;
@@ -118,15 +130,20 @@ hr{
 }
 .cvbtn button:hover{
     
-    background-color: black;
+    background-color: rgb(47, 45, 45);
     color: #f2f2f2;
 }    
 /* contact section */
 .contact{
     padding: 25px;
-    background-color: #f2f2f2;
     font-family: 'Nunito', sans-serif;
+    width: 600px;
+    margin: auto;
     
+    
+}
+.contact input{
+    margin-bottom: 10px;
 }
 .contact h1{
     text-align: center;
@@ -140,9 +157,10 @@ input[type=text],input[type=email],textarea{
     border: 1px solid silver;
     border-radius: 5px;
     font-family: 'Nunito', sans-serif;
+    background-color: #f2f2f2;
 }
 input[type=submit]{
-    width: 100%;
+    width: unset;
     cursor: pointer;
     background-color: #333;
     border: none;
@@ -151,9 +169,11 @@ input[type=submit]{
     border-radius: 5px;
     font-size: 15px;
     font-family: 'Nunito', sans-serif;
+    
+    
 }
 input[type=submit]:hover{
-    background-color: black;
+    background-color: rgb(47, 45, 45);
     color: #f2f2f2;
 }
 /* follow section */
@@ -168,16 +188,17 @@ input[type=submit]:hover{
 .io{
     display: flex;
     justify-content: center;
+    color: white;
     
 }
 .io a{
     padding: 0px 10px;
-    color: black;
+    color: white;
 }
 .io a:hover{
-    box-shadow: 0px 3px 5px 1px black;
-    border-radius:5px ;
+    color: silver;
 }
+
 
 
 footer{
@@ -221,5 +242,14 @@ footer{
     .card p{
         text-align:center;
     }
+    .flex-wrap{
+        flex-wrap: wrap;
+    }
 }
+@media screen and (max-width:568px){
+    .contact{
+        width: auto;
+    }
+}
+
 

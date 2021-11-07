@@ -8,17 +8,18 @@
     <title>Mudassir Sayyed</title>
     <link rel="stylesheet" href="mycss.css">
     <!-- bootstrap icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@600&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="header">
-        <img src="/profile_photo.png" alt="">
+        <img src="/logo.png" alt="">
         <h1>MY PORTFOLIO.COM</h1>
         <p>Swipe Up For Details!!</p>
-        <p><i class="bi bi-chevron-double-up"></i></p>
+        <p><a href="#who" class="swipe"><i class="fad fa-chevron-double-down fa-2x"></i></a></p>
     </div>
     <!-- nav section -->
     <div class="topnav">
@@ -31,15 +32,16 @@
     <div class="row">
         <div class="left-coloum">
             <div class="card">
-                <h2>Who am I?</h2>
+                <h2 id="who">Who am I?</h2>
                 <hr class="hr">
-                <p>My Name is Mudassir Sayyed, <br>
-                    I completed My 10th from 'Yasin Inamdar Madyamik Vidyalaye',<br>
-                    I completed My 12th from 'New English School & Junior College',<br>
-                    I completed My Bachlor of Computer Application from-<br>
-                    'Abeda Inamdar Senior College' ,<br>
-                    I leave in Pune. </p>
-
+                <div class="info">
+                    <p>My Name is Mudassir Sayyed,</p>
+                    <p>I completed My 10th from 'Yasin Inamdar Madyamik Vidyalaye' ,</p>
+                    <p>I completed My 12th from 'New English School & Junior College' ,</p>
+                    <p>I completed My Bachlor of Computer Application from-</p>
+                    <p>'Abeda Inamdar Senior College' ,</p>
+                    <p> I leave in Pune. </p>
+                </div>
             </div>
         </div>
         <!-- skill section -->
@@ -48,7 +50,7 @@
             <p>Frontend</p>
             <hr class="hr">
         </div>
-        <div class="sl">
+        <!-- <div class="sl">
             <h2>HTML</h2>
             <h1><i class="bi bi-file-code-fill "></i></h1>
         </div>
@@ -57,7 +59,24 @@
             <h2>CSS</h2>
             <h1><i class="bi bi-file-code-fill "></i></h1>
         </div>
-
+        <div class="skill2">
+            <h2>CSS</h2>
+            <h1><i class="bi bi-file-code-fill "></i></h1>
+        </div> -->
+        <div class="d-flex flex-wrap">
+            <div class="skill w-100 text-center">
+                <h2>HTML</h2>
+                <h1><i class="fab fa-html5"></i></h1>
+            </div>
+            <div class="skill w-100 text-center">
+                <h2>CSS</h2>
+                <h1><i class="fab fa-css3"></i></h1>
+            </div>
+            <div class="skill w-100 text-center">
+                <h2>JAVASCRIPT</h2>
+                <h1><i class="fab fa-html5"></i></h1>
+            </div>
+        </div>
     </div>
     <!-- CV section -->
     <div class="cv">
@@ -66,37 +85,41 @@
     </div>
     <div class="cvbtn">
         <p>click on download button for CV</p>
-        <a href="/mudassir_resume.pdf" download><button>Download CV <i class="bi bi-download"></i></button></a>
+        <a href="/Mudassir_RESUME.pdf" download><button>Download CV <i class="fas fa-download"></i></button></a>
     </div>
     <!-- contact section -->
     <div class="contact" id="contacts">
         <h1>Contact me </h1>
         <hr class="hr">
-        <form action="">
+        <form action="https://formspree.io/f/mqkwvdww" method="POST">
             <label for="name">Name-</label>
-            <input type="text" id="name" placeholder="Enter your name">
+            <input type="text" id="name" name="lead_name" placeholder="Enter your name">
+
             <label for="email">Email-</label>
             <input type="email" name="email" placeholder="Enter your email" id="email">
+
             <label for="mrssage">Message-</label>
             <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
             <input type="submit" value="Submit">
         </form>
     </div>
     <!-- follow section -->
     <div class="follow" id="follows">
         <h1>Connect with me</h1>
-        <h2><i class="bi bi-person-plus" style="opacity: 80%;"></i></h2>
+        <h2><i class="fas fa-user-plus" style="opacity: 80%;"></i></h2>
         <hr class="hr">
         <div class="io">
             <h1><a href="https://www.facebook.com/people/Mudassir-Sayyed/100012512235163/" target="_blank"><i
-                        class="bi bi-facebook"></i></a>
+                class="fab fa-facebook"></i></a>
             </h1>
 
-            <h1><a href="https://www.instagram.com/3eing_muddu_007/" target="_blank"><i class="bi bi-instagram"></i></a>
+            <h1><a href="https://www.instagram.com/3eing_muddu_007/" target="_blank"><i class="fab fa-instagram"></i></a>
             </h1>
-            <h1><a href="https://www.linkedin.com/in/mudassir-sayyed-86694a18b/"><i class="bi bi-linkedin"></i></a></h1>
-            <h1><i class="bi bi-envelope-fill"></i></h1>
+            <h1><a href="https://www.linkedin.com/in/mudassir-sayyed-86694a18b/"><i class="fab fa-linkedin"></i></a></h1>
         </div>
+        <hr class="hr">
+        <h1><i class="fas fa-envelope"></i></h1>
         <p>mudassirsayyed3089@gmail.com</p>
 
     </div>
