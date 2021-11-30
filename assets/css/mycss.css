@@ -1,21 +1,24 @@
 body{
     padding: 0px;
     margin: 0px;
+    background-color: #393E46;
+    color: #f2f2f2;
 }
 *{
     box-sizing: border-box;
+    
 }
 html{
     scroll-behavior: smooth;
 }
-body{
-    background-color: black;
-    color: #f2f2f2;
-}
+
 hr{
     opacity: 35%;
 }
 /* header section */
+.my-name{
+    font-family: 'Tangerine', cursive;
+}
 .header{
     text-align: center;
     padding: 30px;
@@ -27,13 +30,18 @@ hr{
 .header h1{
     text-shadow:4px 1px 5px rgb(185 78 78);
 }
+.logo-img{
+    border-radius: 5px 35px 4px 35px;
+    box-shadow: black 5px 7px 14px -4px;
+}
 
 .swipe-text{
     opacity: 50%;
 }
+
 /* navbar section */
 .topnav{
-    background-color: #333;
+    background-color: #222831;
     overflow: hidden;
     border-radius: 4px;
     font-family: 'Nunito', sans-serif;
@@ -62,7 +70,7 @@ hr{
 .card{
     font-family: 'Nunito', sans-serif;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 23px;
     margin-bottom: 55px;
    
 
@@ -127,7 +135,7 @@ hr{
 .cvbtn button{
     font-family: 'Nunito', sans-serif;
     cursor: pointer;
-    background-color: #333;
+    background-color: #222831;
     border:none;
     color: white;
     /* width: 9%; */
@@ -138,7 +146,7 @@ hr{
 }
 .cvbtn button:hover{
     
-    background-color: rgb(47, 45, 45);
+    background-color: #222831a6;
     color: #f2f2f2;
 }    
 /* contact section */
@@ -178,8 +186,14 @@ input[type=text],input[type=email],textarea{
     font-size: 15px;
     font-family: 'Nunito', sans-serif;
     margin-right: 20px;
+    box-shadow: black 7px 3px 9px -3px;
     
-    
+}
+#reset-btn{
+    background-color: tomato;
+}
+#reset-btn:hover{
+    background-color: #ff5637;
 }
 .sub-btn:hover{
     background-color: rgb(47, 45, 45);
@@ -194,6 +208,9 @@ input[type=text],input[type=email],textarea{
 .follow h1,p,h2{
     text-align: center;
 }
+.human-icon{
+    cursor: pointer;
+}
 .io{
     display: flex;
     justify-content: center;
@@ -205,13 +222,13 @@ input[type=text],input[type=email],textarea{
     color: white;
 }
 .io a:hover{
-    color: silver;
+    color:lightslategrey
 }
 
 
 
 footer{
-    background-color: #333;
+    background-color: #222831;
     color: white;
     text-align: center;
     padding: 20px;
@@ -240,12 +257,15 @@ footer{
     .cvbtn button{
         width: 50%;
     }
+    
 }
 
 @media screen and (max-width:200px) {
     .cvbtn button{
         width: 20%;
     }
+   
+   
 }
 @media  screen and (max-width:430px) {
     .card p{
@@ -258,6 +278,14 @@ footer{
 @media screen and (max-width:568px){
     .contact{
         width: auto;
+    }
+}
+@media screen and (max-width:398) {
+    .my-name{
+        font-size: 3em;
+    }
+    .logo-img{
+        max-width: 10%;
     }
 }
 
