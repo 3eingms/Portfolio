@@ -23,6 +23,7 @@ hr{
     text-align: center;
     padding: 30px;
     font-family: 'Nunito', sans-serif;
+    margin-top: 20px;
 }
 .header img{
     width: 150px;
@@ -40,31 +41,78 @@ hr{
 }
 
 /* navbar section */
-.topnav{
-    background-color: #222831;
-    overflow: hidden;
-    border-radius: 4px;
+.containers{
+    height: 40px;
+}
+.containers a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 10px 20px;
+    font-family: 'Neucha', cursive;
+}
+
+.navbar{
+    background-color:#222831;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.menu-button{
+    cursor: pointer;
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.side-menu{
+    background-color:#222831;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 280px;
+    transition: transform .3s ease-in-out;
+    transform: translate3d(-290px,0,0);
+    z-index: 1;
+}
+.side-menu ul{
+    list-style-type: none;
+}
+.side-menu ul li{
+    padding: 10px 10px;
+}
+.side-menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight:600;
+    font-size: 15px;
     font-family: 'Nunito', sans-serif;
     
+}
+.side-menu ul li a:hover{
+   opacity: 60%;
+}
+.display-side-menu{
+    transform: translate3d(0,0,0);
+}
+.io-menu{
+    float: right;
+    font-size: large;
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00000073;
+    display: none;
+}
+.display-overlay{
+    display: block !important;
+}
 
-}
-.topnav a{
-    display: block;
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 15px 16px;
-    text-decoration: none;
-}
-.topnav a:hover{
-    background-color: #a89c9c8c;
-    color: black;
-    border-radius: 5px;
-    
-    
-    
-
-}
 
 /* who am i section */
 .card{
@@ -135,15 +183,16 @@ hr{
 .cvbtn button{
     font-family: 'Nunito', sans-serif;
     cursor: pointer;
-    background-color: #222831;
-    border:none;
-    color: white;
-    /* width: 9%; */
+    background-color: #d2d5d9;
+    border: none;
+    color: #0a0a0a;
     padding: 9px 13px;
     border-radius: 8px;
-    box-shadow: 0px 3px 5px 1px black;
+    box-shadow: 0px 6px 8px -3px black;
     margin-bottom: 59px;
+    outline: 2px solid #222831a6;
 }
+
 .cvbtn button:hover{
     
     background-color: #222831a6;

@@ -10,25 +10,77 @@
     <!-- bootstrap icon -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@600&display=swap"
-        rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@600&display=swap"
+        rel="stylesheet"> -->
     <!--fnt  -->
-    <link href="https://fonts.googleapis.com/css2?family=Archivo&family=Montserrat:wght@300&family=Nunito:wght@600&family=Poppins:wght@400;700&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Archivo&family=Montserrat:wght@300&family=Nunito:wght@600&family=Poppins:wght@400;700&family=Tangerine:wght@700&display=swap"
+        rel="stylesheet"> -->
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+    <!-- font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Archivo&family=Josefin+Sans:wght@300;400&family=Montserrat:wght@300&family=Neucha&family=Nunito:wght@600&family=Passions+Conflict&family=Poppins:wght@400;700&family=Readex+Pro&family=Tangerine:wght@700&family=Ubuntu&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <!-- nav section -->
-    <div class="topnav">
-        <a href="">Home</a>
-        <a href="#skills">My Skills</a>
-        <a href="#contacts">Contact me</a>
-        <a href="#follows" style="float: right;">Connect with me!</a>
-
+    <nav class="navbar">
+        <div class="containers">
+            <a href="#" class="menu-hd">MS</a>
+            
+            <div class="menu-button">
+                <i class="fas fa-bars fa-2x"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- side menu -->
+    <div class="side-menu ">
+        <ul>
+            <li>
+                <a href="#">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#skills">
+                    My Skills
+                </a>
+            </li>
+            <li>
+                <a href="#contacts">Contact</a>
+            </li>
+            <li>
+                <a href="#connect">follow me</a>
+                <div class="io-menu">
+                    <h1><a href="https://www.facebook.com/people/Mudassir-Sayyed/100012512235163/" target="_blank"><i
+                                class="fab fa-facebook " target="_blank"></i></a>
+                    </h1>
+        
+                    <h1><a href="https://www.instagram.com/3eing_muddu_007/" target="_blank"><i
+                                class="fab fa-instagram "></i></a>
+                    </h1>
+        
+                    <h1><a href="https://www.linkedin.com/in/mudassir-sayyed-86694a18b/" target="_blank"><i
+                                class="fab fa-linkedin "></i></a>
+                    </h1>
+        
+                    <h1><a href="https://github.com/3eingms " target="_blank"><i class="fab fa-github"></i></a>
+                    </h1>
+        
+                </div>
+            </li>
+        </ul>
     </div>
+
+    <!-- overlay -->
+    <div class="overlay"></div>
+
     <div class="header">
         <img src="assets/img/logo.jpg" class="logo-img" alt="">
         <h1 class="my-name">Mudassir Sayyed</h1>
-        
+
     </div>
     <div class="row">
         <div class="left-coloum">
@@ -41,7 +93,7 @@
                     <p>Application from Savitribai Phule Pune University,</p>
                     <p>I am learning Frontend Web Development,</p>
                     <p>For more swipe up.</p>
-                    
+
                 </div>
             </div>
         </div>
@@ -98,7 +150,8 @@
     <!-- follow section -->
     <div class="follow" id="follows">
         <h2>CONNECT WITH ME</h2>
-        <h2><i class="fas fa-user-plus human-icon" style="opacity: 80%;" onclick="alert('Tap on icon for connect with me!')"></i></h2>
+        <h2><i class="fas fa-user-plus human-icon" style="opacity: 80%;"
+                onclick="alert('Tap on icon for connect with me!')"></i></h2>
         <hr class="hr">
         <div class="io">
             <h1><a href="https://www.facebook.com/people/Mudassir-Sayyed/100012512235163/" target="_blank"><i
@@ -126,6 +179,8 @@
         &copy;2021 MUDASSIR SAYYED
         <p style="opacity: 50%; font-size: 0.7em;">Design &amp; Build by Mudassir Sayyed.</p>
     </footer>
+
+    <script src="assets/js/myjs.js"></script>
 </body>
 
 </html>
